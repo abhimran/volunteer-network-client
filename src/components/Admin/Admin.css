@@ -1,0 +1,76 @@
+.adminDashboard {
+    padding: 50px 0;
+    width: 100%;
+    background: #fff;
+}
+
+.adminDashboard__header {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+}
+
+.adminDashboard__header img {
+    width: 200px;
+}
+
+.adminDashboard__header h3 {
+    font-size: 24px;
+}
+
+.adminDashboard__container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.adminDashboard__sidebar {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+}
+
+.sidebar__menu p {
+    margin-bottom: 20px;
+}
+
+.sidebar__menu img {
+    width: 20px;
+}
+
+.sidebar__data {
+    border: 10px solid skyblue;
+    padding: 20px;
+}
+
+#users {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#users td,
+#users th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#users tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#users tr:hover {
+    background-color: #ddd;
+}
+
+#users th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+}
+
+.data_table {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    background: #444;
+    color: yellow;
+    justify-items: center;
+}

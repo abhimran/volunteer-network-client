@@ -1,0 +1,67 @@
+.login {
+    background: #e5e5e5;
+    text-align: center;
+    width: 100%;
+    min-height: 100vh;
+}
+
+.login_header {
+    padding: 30px 0;
+}
+
+.login_header img {
+    width: 200px;
+}
+
+.login__main {
+    background: #FFFFFF;
+    border: 1px solid #ABABAB;
+    box-sizing: border-box;
+    border-radius: 4px;
+    width: 30%;
+    padding: 100px 0;
+    margin: 0 auto;
+}
+
+.login__main h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.login__main button {
+    border: 1px solid #ABABAB;
+    outline: 0;
+    padding: 10px 30px;
+    background: #fff;
+    font-size: 18px;
+    border-radius: 100px;
+    cursor: pointer
+}
+
+.login__main button:hover {
+    background: #444;
+    color: yellow;
+    border: 1px solid transparent;
+}
+
+/* responsive */
+
+@media (max-width: 575px) {
+    .login__main {
+        width: 80%;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .login__main {
+        width: 80%;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .login__main {
+        width: 60%;
+    }
+
+}

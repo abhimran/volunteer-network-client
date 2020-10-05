@@ -1,0 +1,25 @@
+.registeredEventDetails {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+    background: #fff;
+    padding: 20px;
+}
+
+.registeredEventDetails__img img {
+    width: 100%
+}
+
+.registeredEventDetails__btn {
+    justify-self: end;
+    align-self: end;
+
+}
+
+.registeredEventDetails__btn button {
+    outline: none;
+    border: none;
+    background: #E3E3E3;
+    border-radius: 5px;
+    padding: 7px 20px;
+}

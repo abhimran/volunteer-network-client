@@ -1,0 +1,13 @@
+.adminDetail {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    border-bottom: 1px solid green;
+    margin: 5px 0;
+    justify-items: center;
+}
+
+.adminDetail img {
+    background: red;
+    width: 25px;
+    cursor: pointer;
+}
